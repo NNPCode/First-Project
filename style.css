@@ -1,0 +1,32 @@
+body{
+	background-color: rgb(11, 132, 245);
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 45px;
+	border-bottom: 2px solid;
+	padding-bottom: 15px;
+	font: 30px
+}
+
+header .top-menu li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+header .top-menu a{
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 15px 15px;
+	color:black;
+	background-color: rgb(4, 129, 245); ;
+}
+
+header .top-menu a:hover{
+	color: red;
+}
